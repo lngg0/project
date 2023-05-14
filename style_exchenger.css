@@ -1,0 +1,165 @@
+.text {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-text {
+    font-size: 20px;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.nav-text:hover {
+    color: rgb(255, 120, 120);
+    transition: 0.3s;
+}
+
+.active {
+    color: rgb(255, 120, 120);
+}
+
+nav {
+    padding: 20px;
+}
+
+.img-money {
+    width: 60px;
+}
+
+.img-coin {
+    width: 40px;
+}
+
+.wallet {
+    display: flex;
+}
+
+.money {
+    display: flex;
+    background-color: rgb(147, 227, 147);
+    min-width: 150px;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin-right: 25px;
+}
+
+.money-text {
+    color: green;
+    font-weight: 700;
+}
+
+.coin-text {
+    color: rgb(159, 131, 4);
+    font-weight: 700;
+}
+
+.coin {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(247, 245, 166);
+    min-width: 150px;
+    border-radius: 15px;
+    margin-right: 45px;
+}
+
+.money-currency {
+    display: flex;
+    background-color: rgb(147, 227, 147);
+    min-width: 150px;
+    justify-content: space-around;
+    border-radius: 15px;
+    height: 64px;
+    transition: 0.2s;
+}
+
+.coin-currency {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(247, 245, 166);
+    min-width: 150px;
+    border-radius: 15px;
+    height: 64px;
+    transition: 0.2s;
+}
+
+.currency {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.arrow {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    margin-right: 25px;
+    margin-left: 25px;
+}
+
+.img-arrow {
+    width: 35px;
+    margin-top: 50px;
+}
+
+.sell {
+    color: rgb(236, 69, 69);
+}
+
+.buy {
+    color: rgb(51, 157, 51);
+}
+
+input {
+    width: 0;
+    height: 0;
+}
+
+.currency-img-money {
+    background-image: url("img/money.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 60px;
+}
+
+.currency-img-coin {
+    background-image: url("img/coin.svg");
+    background-repeat: no-repeat;
+    background-size: 40px;
+    background-position-y: 50%;
+    width: 40px;
+}
+
+.exchenge {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 40px;
+}
+
+.btn-exchenge {
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(250, 155, 155);
+    color: rgb(152, 44, 44);
+    font-weight: 700;
+    height: 40px;
+    width: 130px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.text-exchenge {
+    text-align: center;
+    margin-top: auto;
+    margin-bottom: auto;
+}

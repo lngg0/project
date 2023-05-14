@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>s2e</title>
+    <link rel="stylesheet" href="style_earn.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="index.html" class="text nav-text">Главная</a>
+            <a href="exchenger.html" class="text nav-text">Обменник</a>
+            <a href="market.html" class="text nav-text">Магазин</a>
+            <a href="earn.html" class="text nav-text active">Добыча</a>
+            <a href="account.html" class="text nav-text">Аккаунт</a>
+        </nav>
+        <div class="wallet">
+            <div class="money">
+                <h3 class="money-text text">0</h3>
+                <img src="img/money.svg" alt="$" class="img-money">
+            </div>
+            <div class="coin">
+                <h3 class="coin-text text">0</h3>
+                <img src="img/coin.svg" alt="C" class="img-coin">
+            </div>
+        </div>
+    </header>
+    <main>
+        <div class="earn flex">
+            <div class="padding-balance">
+                <h3 class="text-padding-balance text">0</h3>
+                <img src="img/coin.svg" alt="C" class="img-coin">
+            </div>
+            <div class="mining">
+                <h3 class="text-mining text">0</h3>
+                <h3 class="ch-mining text">c/h</h3>
+            </div>
+            <div class="redemption">
+                <h3 class="text-redemption text">0</h3>
+                <h3 class="price text">price</h3>
+            </div>
+            <div class="bonus">
+                <h3 class="text-minus text">-</h3>
+                <h3 class="text-bonus text">0</h3>
+                <h3 class="percent text">%</h3>
+            </div>
+        </div>
+        <div class="slave">
+            <div class="chel">
+                <div class="avatar">
+                    <img src="img/account.svg" alt="" class="img-chel">
+                    <h3 class="name text">Толик</h3>
+                </div>
+                <div class="chel-information">
+                    <div class="chel-mining">
+                        <h3 class="text-chel-mining text">5</h3>
+                        <h3 class="ch-mining text">c/h</h3>
+                    </div>
+                    <div class="chel-bonus">
+                        <h3 class="text-plus text">+</h3>
+                        <h3 class="text-chel-bonus text">0.1</h3>
+                        <h3 class="ch-mining text">c/h</h3>
+                    </div>
+                    <button class="btn-up text">улучшить</button>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script_earn.js"></script>
+</body>
+</html>

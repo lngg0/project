@@ -1,0 +1,215 @@
+.text {
+    font-family: 'Montserrat', sans-serif;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+}
+
+.nav-text {
+    font-size: 20px;
+    margin-left: 25px;
+    transition: 0.3s;
+}
+
+.nav-text:hover {
+    color: rgb(255, 120, 120);
+    transition: 0.3s;
+}
+
+.active {
+    color: rgb(255, 120, 120);
+}
+
+nav {
+    padding: 20px;
+}
+
+.img-money {
+    width: 60px;
+}
+
+.img-coin {
+    width: 40px;
+}
+
+.wallet {
+    display: flex;
+}
+
+.money {
+    display: flex;
+    background-color: rgb(147, 227, 147);
+    min-width: 150px;
+    justify-content: space-around;
+    border-radius: 15px;
+    margin-right: 25px;
+}
+
+.money-text {
+    color: green;
+    font-weight: 700;
+}
+
+.coin-text {
+    color: rgb(159, 131, 4);
+    font-weight: 700;
+}
+
+.coin {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(247, 245, 166);
+    min-width: 150px;
+    border-radius: 15px;
+    margin-right: 45px;
+}
+
+.earn {
+    height: 64px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.padding-balance {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(247, 245, 166);
+    width: 150px;
+    border-radius: 15px;
+    margin-right: 35px;
+}
+
+.text-padding-balance {
+    color: rgb(159, 131, 4);
+    font-weight: 700;
+}
+
+.mining {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    background-color: rgb(230, 230, 230);
+    width: 150px;
+    border-radius: 15px;
+    margin-right: 35px;
+}
+
+.text-mining {
+    color: rgb(99, 99, 99);
+}
+
+.ch-mining {
+    color: rgb(99, 99, 99);
+}
+
+.redemption {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(195, 240, 255);
+    width: 150px;
+    border-radius: 15px;
+    margin-right: 35px;
+}
+
+.text-redemption {
+    color: rgb(52, 179, 202);
+    font-weight: 700;
+}
+
+.price {
+    color: rgb(52, 179, 202);
+    font-weight: 700;    
+}
+
+.bonus {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255, 159, 159);
+    width: 150px;
+    border-radius: 15px;
+}
+
+.text-bonus {
+    color: rgb(234, 79, 79);
+    font-weight: 700;
+}
+
+.percent {
+    color: rgb(234, 79, 79);
+    font-weight: 700;
+}
+
+.slave {
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.chel {
+    width: 335px;
+    height: 140px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.shel-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-chel {
+    width: 60px;
+    margin-top: 20px;
+}
+
+.chel-mining {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.chel-bonus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.text-minus{
+    color: rgb(234, 79, 79);
+}
+
+.btn-up {
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(147, 227, 147);
+    color: green;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 7.5px;
+    cursor: pointer;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    color: #333;
+    font-weight: 700;
+}
