@@ -72,4 +72,132 @@ nav {
     margin-right: 45px;
 }
 
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.logo {
+    color: rgb(52, 179, 202);
+}
+
+.info-text {
+    width: 70%;
+}
+
+.blocks {
+    display: flex;
+    flex-direction: column;
+    padding: 0 175px 0 175px;
+}
+
+.info-block {
+    display: flex;
+    flex-direction: column;
+    background-color: #f8f8f8;
+    padding: 40px;
+    border-radius: 15px;
+    margin-top: 20px;
+}
+
+.account {
+    background-color: rgb(198, 198, 198);
+    width: 80px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.img-account {
+    width: 50px;
+}
+
+.currency {
+    display: flex;
+    flex-direction: row;
+}
+
+.money-info {
+    display: flex;
+    background-color: rgb(147, 227, 147);
+    width: 80px;
+    height: 80px;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.margin {
+    margin-right: 20px;
+}
+
+.coin-info {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(247, 245, 166);
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+.money-text {
+    color: green;
+    font-weight: 700;
+}
+
+.coin-text {
+    color: rgb(189, 158, 21);
+    font-weight: 700;
+}
+
+.img-red-arrow {
+    width: 50px;
+}
+
+.red-arrow {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 159, 159);
+    width: 80px;
+    height: 80px;
+    border-radius: 15px;
+}
+
+footer {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+.btn-sign-up {
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(195, 240, 255);
+    color: rgb(52, 179, 202);
+    font-weight: 700;
+    height: 40px;
+    width: 190px;
+    text-transform: uppercase;
+    cursor: pointer;
+    margin-right: 15px;
+}
+
+.btn-sign-in {
+    border: 3px solid;
+    border-radius: 15px;
+    border-color: rgb(195, 240, 255);
+    color: rgb(52, 179, 202);
+    background-color: transparent;
+    font-weight: 700;
+    height: 40px;
+    width: 190px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
 

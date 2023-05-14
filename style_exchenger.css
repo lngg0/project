@@ -118,11 +118,6 @@ nav {
     color: rgb(51, 157, 51);
 }
 
-input {
-    width: 0;
-    height: 0;
-}
-
 .currency-img-money {
     background-image: url("img/money.svg");
     background-repeat: no-repeat;
@@ -163,3 +158,23 @@ input {
     margin-top: auto;
     margin-bottom: auto;
 }
+
+input {
+    width: 60px;
+    height: 60px;
+    margin: auto 0;
+    font-weight: 700;
+    background-color: transparent;
+    border: none;
+    font-size: large;
+}
+
+.money-input {
+    color: green;
+}
+
+.coin-input {
+    color: rgb(159, 131, 4);
+}
+
+
