@@ -21,6 +21,12 @@ let activePosition = 0;
 
 coinMoney.innerHTML = (colCoin / colMoney).toFixed(2);
 
+leftInput.value = 0;
+rightInput.value = 0;
+
+leftInput.disabled = false;
+rightInput.disabled = true;
+
 arrow.addEventListener("click", () => {
     activePosition = activePosition == 0 ? 1: 0;
 
@@ -87,5 +93,26 @@ arrow.addEventListener("click", () => {
             coinMoney.innerHTML = (colMoney / colCoin).toFixed(2);
 
             break;
+    }
+
+    const value = parseInt(leftInput.value);
+    if (!isNaN(value)) {
+        rightInput.value = (value * coinMoney.innerHTML).toFixed(2)
+    } else {
+        rightInput.value = 0;
+    }
+});
+
+leftInput.addEventListener("focus", () => {
+    leftInput.value = "";
+}); 
+
+leftInput.addEventListener("keyup", () => {
+    const value = parseInt(leftInput.value);
+    if (!isNaN(value)) {
+        console.log(coinMoney)
+        rightInput.value = (value * coinMoney.innerHTML).toFixed(2);
+    } else {
+        rightInput.value = 0;
     }
 });

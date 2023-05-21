@@ -76,8 +76,8 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 50px;
-    margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 .logo {
@@ -86,6 +86,7 @@ nav {
 
 .info-text {
     width: 70%;
+    text-align: center;
 }
 
 .blocks {
@@ -167,11 +168,11 @@ nav {
 }
 
 footer {
-    margin-top: 80px;
+    margin-top: 150px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 200px;
 }
 
 .btn-sign-up {
@@ -200,4 +201,72 @@ footer {
     cursor: pointer;
 }
 
+.info-block-money {
+    width: calc(50% - 10px);
+}
 
+.info-block-coin {
+    width: calc(50% - 10px);
+}
+
+.page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 650px;
+}
+
+.span-block {
+    background-color: rgb(255, 120, 120);
+    padding: 15px;
+    border-radius: 15px;
+    color: white;
+}
+
+.b1::before {
+    content: "";
+    position: absolute;
+    top: calc(50% + 50px);
+    right: 60%;
+    width: 50%;
+    height: 30%;
+    border-radius: 0 15px 15px 0;
+    background: rgb(255, 254, 196);
+    z-index: -1;
+}
+
+.b2::before {
+    content: "";
+    position: absolute;
+    bottom: calc(50% + 70px);
+    left: 50%;
+    width: 50%;
+    height: 30%;
+    border-radius: 15px 0 0 15px;
+    background: rgb(195, 240, 255);
+    z-index: -1;
+}
+
+.b3::before {
+    content: "";
+    position: absolute;
+    bottom: calc(50% + 70px);
+    left: 15%;
+    aspect-ratio: 1 / 1;
+    height: 30%;
+    border-radius: 15px;
+    background: rgb(254, 193, 254);
+    z-index: -1;
+}
+
+.b4::before {
+    content: "";
+    position: absolute;
+    top: calc(50% + 50px);
+    right: 0;
+    width: 40%;
+    height: 30%;
+    border-radius: 15px 0 0 15px;
+    background: rgb(228, 255, 229);
+    z-index: -1;
+}
