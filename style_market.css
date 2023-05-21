@@ -221,19 +221,10 @@ img {
     cursor: pointer;
 }
 
-.btn-lvl:after {
-    content: "sdfdsfsdfsdfafawef";
-    border: 100px black solid;
-    z-index: 10;
-    /* position: relative;
-    left: 5px; */
+#btn-common_label {
     width: 20px;
-    height: 2000px;
-    border-radius: 50%;
-}
-
-#btn-common {
-    background: red;
+    height: 20px;
+    background-color: aqua;
 }
 
 .btn-on {
