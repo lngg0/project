@@ -72,3 +72,188 @@ nav {
 }
 
 /* market */
+
+.chel {
+    width: 335px;
+    height: 140px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.shel-information {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-chel {
+    width: 60px;
+    margin-top: 20px;
+}
+
+.chel-mining {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+}
+
+.chel-bonus {
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-buy {
+    border: none;
+    border-radius: 15px;
+    background-color: rgb(147, 227, 147);
+    color: green;
+    text-transform: uppercase;
+    font-weight: 700;
+    padding: 7.5px;
+    cursor: pointer;
+}
+
+.avatar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.name {
+    color: #333;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+}
+
+img {
+    width: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70vw;
+    position: absolute;
+    right: 0;
+}
+
+.filter {
+    position: fixed;
+    left: 0;
+    top: 50vh;
+    height: 40vh;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 30vw;
+    background-color: rgb(230, 230, 230);
+    border-radius: 0 15px 15px 0;
+}
+
+.search-name {
+    height: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.search-input {
+    padding: 0;
+    background-color: rgb(195, 240, 255);
+    color: rgb(52, 179, 202);
+    text-align: center;
+    font-size: medium;
+    font-weight: 700;
+    height: 30px;
+    width: 200px;
+    border-radius: 15px;
+    border: 3px rgb(52, 179, 202) solid;
+}
+
+.btn-search {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.img-search {
+    width: 40px;
+}
+
+.btn-earn-procent {
+    background-color: transparent;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+.img-min-max {
+    margin-left: 10px;
+}
+
+.btn-price {
+    background-color: transparent;
+    display: flex;
+    border: none;
+    cursor: pointer;
+    font-size: large;
+}
+
+.search-lvl {
+    display: flex;
+    justify-content: space-around;
+    width: 20vw;
+}
+
+.btn-lvl {
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+.btn-lvl:after {
+    content: "sdfdsfsdfsdfafawef";
+    border: 100px black solid;
+    z-index: 10;
+    /* position: relative;
+    left: 5px; */
+    width: 20px;
+    height: 2000px;
+    border-radius: 50%;
+}
+
+#btn-common {
+    background: red;
+}
+
+.btn-on {
+    background-color: rgb(147, 227, 147);
+    color: green;
+    font-size: medium;
+    font-weight: 700;
+    border: none;
+    border-radius: 15px;
+    padding: 7px 13px;
+    cursor: pointer;
+}
+
+.arrow-block {
+    display: flex;
+}
+
+.search-earn-procent {
+    margin-right: 30px;
+}
+
+
+

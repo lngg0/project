@@ -210,10 +210,14 @@ footer {
 }
 
 .page {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 650px;
+    height: calc(100vh - 72px);
+}
+
+.page-text {
+    position: absolute;
+    top: 47%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .span-block {
@@ -238,7 +242,7 @@ footer {
 .b2::before {
     content: "";
     position: absolute;
-    bottom: calc(50% + 70px);
+    bottom: calc(50% + 50px);
     left: 50%;
     width: 50%;
     height: 30%;
@@ -250,7 +254,7 @@ footer {
 .b3::before {
     content: "";
     position: absolute;
-    bottom: calc(50% + 70px);
+    bottom: calc(50% + 50px);
     left: 15%;
     aspect-ratio: 1 / 1;
     height: 30%;
